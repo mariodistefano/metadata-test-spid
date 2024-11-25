@@ -39,7 +39,7 @@ app.get('/metadata', (req, res) => {
     const sp = ServiceProvider({
         entryPoint: 'https://demo.spid.gov.it/samlsso',
         issuer: 'https://example.com/spid',
-        callbackUrl: 'https://tuo-dominio.ngrok-free.app/saml/acs',
+        callbackUrl: 'https://spid-test.netlify.app',
         cert: fs.readFileSync('./sp-metadata.xml', 'utf-8'),
         signingCert: fs.readFileSync('./cert.pem', 'utf-8'), // Certificato pubblico
     });
