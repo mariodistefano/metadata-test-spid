@@ -1,0 +1,20 @@
+{
+  "name": "spid-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "ngrok": "^5.0.0-beta.2",
+    "passport": "^0.7.0",
+    "passport-saml": "^3.2.4",
+    "samlify": "^2.8.11"
+  }
+}

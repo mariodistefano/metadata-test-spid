@@ -1,0 +1,13 @@
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:assertion="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://example.com/spid">
+<SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<KeyDescriptor use="signing">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>MIIDzTCCArWgAwIBAgIUYcEspDcEdcUXVznrvf53ZqZwmkYwDQYJKoZIhvcNAQELBQAwdjELMAkGA1UEBhMCaXQxCzAJBgNVBAgMAmN0MQ0wCwYDVQQHDARjaXR5MQ0wCwYDVQQKDAR0ZXN0MRAwDgYDVQQLDAdzZWN0aW9uMQ0wCwYDVQQDDAR0ZXN0MRswGQYJKoZIhvcNAQkBFgx0ZXN0QHRlc3QuaXQwHhcNMjQxMTE5MTkzMzUyWhcNMjUxMTE5MTkzMzUyWjB2MQswCQYDVQQGEwJpdDELMAkGA1UECAwCY3QxDTALBgNVBAcMBGNpdHkxDTALBgNVBAoMBHRlc3QxEDAOBgNVBAsMB3NlY3Rpb24xDTALBgNVBAMMBHRlc3QxGzAZBgkqhkiG9w0BCQEWDHRlc3RAdGVzdC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMYcg5cNUjPcxnYUfIEqGSagHmldlRKEKkX7nTP52Pb8wtfhW9L/Jd4aVoGUsUvm9CM5wFZ3R2xvp3i9HvwfHz7QQmRSsnSLSXoyXDnSE77mLgUtEHsV9/01zPcj15LAX7M0HWy9WNmfceOzeg7R5RvOVgSgUw385JfITQoLZdrgai/IzlUUhpumGOhyACM/4FSA4lyhGXrDA7CW3nEPJp19ozJpWhA+GkbdKGIJ5e+ivmSPj2aQXXy8WhS0hShm8LCYcnSiE40Mz0duhSoL1zKTSfVU/YAYdWCgkgfKWiRln7A/ljy6vrHYAp2LthORm5/n3o+F3qbmOmxqYzogJhkCAwEAAaNTMFEwHQYDVR0OBBYEFN2NghDwMJXq6pHNdMHuoWJ7pj39MB8GA1UdIwQYMBaAFN2NghDwMJXq6pHNdMHuoWJ7pj39MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIyMqEUMVvmXrgD1jfbIERNBZe7z1+GJhhKDjk8OWOp4xy2xO2jVdZqx7DSweLvScD2rHVXEOK73bFxgx23KucZA9FJHyYEMFGw99lnPMQz4Umilhq5pZhXlzbLYt2GwyGj4fcnjhEprbnEQsXthsanZFGlEQ0rQxzXXymK3oRN9wiBQt90zmDBMsEMBPSIrITDA3i/uCR0gTkw16GDTb5mF4sletKlnepraDS003EDgfIxPT2iFAF9Ecgaq+hp6rjcI1xkmOkzXDxET/p+WBFy1JCPsB9gVePOZRTWBLZRQZbJIdIJvK8EberX4EU7oHt8ZVde1fB9kvM43NEyz1yQ=</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</KeyDescriptor>
+<NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
+<AssertionConsumerService index="0" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://example.com/saml/acs"/>
+</SPSSODescriptor>
+</EntityDescriptor>
